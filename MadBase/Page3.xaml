@@ -1,0 +1,124 @@
+﻿<Page x:Class="MadBase.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MadBase"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="Page3">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="600" Width="800">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF84B7D6" Offset="1"/>
+                <GradientStop Color="#FF6CBCEC"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid Margin="0,0,20,20" HorizontalAlignment="Right" Width="300" Height="50" VerticalAlignment="Bottom">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC1CDDC" Offset="0"/>
+                    <GradientStop Color="#FFB7D6E9" Offset="1"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Image Margin="255,5,0,0" Source="Images/free-icon-arrows-507256.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="39" Height="41" VerticalAlignment="Top">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image Margin="8,5,0,0" Source="Images/free-icon-arrows-507256.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="39" Height="41" VerticalAlignment="Top">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Label Content="1" HorizontalAlignment="Left" Margin="61,7,0,0" VerticalAlignment="Top" Height="33" Width="19" FontSize="18">
+                <Label.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FFA4D0EB" Offset="0"/>
+                        <GradientStop Color="#FF8CC7EB" Offset="1"/>
+                    </RadialGradientBrush>
+                </Label.Background>
+            </Label>
+            <Label Content="2" HorizontalAlignment="Left" Margin="85,7,0,0" VerticalAlignment="Top" Height="33" Width="19" FontSize="18">
+                <Label.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FFA4D0EB" Offset="0"/>
+                        <GradientStop Color="#FF8CC7EB" Offset="1"/>
+                    </RadialGradientBrush>
+                </Label.Background>
+            </Label>
+            <Label Content="3" HorizontalAlignment="Left" Margin="109,7,0,0" VerticalAlignment="Top" Height="33" Width="19" FontSize="18">
+                <Label.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FFA4D0EB" Offset="0"/>
+                        <GradientStop Color="#FF8CC7EB" Offset="1"/>
+                    </RadialGradientBrush>
+                </Label.Background>
+            </Label>
+            <Label Content="100" HorizontalAlignment="Left" Margin="204,7,0,0" VerticalAlignment="Top" Height="33" Width="38" FontSize="18">
+                <Label.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FFA4D0EB" Offset="0"/>
+                        <GradientStop Color="#FF8CC7EB" Offset="1"/>
+                    </RadialGradientBrush>
+                </Label.Background>
+            </Label>
+            <Image Source="Images/free-icon-three-dots-more-indicator-60969.png" Margin="128,24,96,0"/>
+        </Grid>
+        <Grid Margin="10,90,0,0" Height="334" VerticalAlignment="Top" HorizontalAlignment="Left" Width="780">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFC1CDDC" Offset="0"/>
+                    <GradientStop Color="#FFB7D6E9" Offset="1"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Calendar HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        </Grid>
+        <Grid Margin="580,10,0,0" Height="70" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF6AA1E5" Offset="0"/>
+                    <GradientStop Color="#FF3B86E4" Offset="1"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Button Content="Вход для сотрудника" Click="ButtonToP4" HorizontalAlignment="Left" Margin="10,10,0,10" Width="180" FontSize="14" Cursor="Hand">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+        </Grid>
+        <Grid Margin="10,478,0,0" Height="112" VerticalAlignment="Top" HorizontalAlignment="Left" Width="60">
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF5F98E0" Offset="0"/>
+                    <GradientStop Color="#FF3B86E4" Offset="1"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Image Source="Images/free-icon-arrows-507256.png" Cursor="Hand" MouseUp="ButtonToP1" RenderTransformOrigin="0.5,0.5" Margin="0,28,0,27" Grid.RowSpan="2">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </Grid>
+</Page>
