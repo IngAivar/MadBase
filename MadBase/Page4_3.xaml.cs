@@ -32,7 +32,7 @@ namespace MadBase
 
         private void ButtonToP4Create(object sender, RoutedEventArgs e)
         {
-            //Должен изменить граф
+            //Должен изменить граф6666666
         }
     }
 }
