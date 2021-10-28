@@ -29,5 +29,17 @@ namespace MadBase
         {
             AppData.NavigateClass.globalFrame.Navigate(new Page4());
         }
+
+        private void ButtonToP5If(object sender, RoutedEventArgs e)
+        {
+            if (TextLogin.Text == "1")
+            {
+                AppData.NavigateClass.globalFrame.Navigate(new Page5());
+            }
+            else if (TextLogin.Text == "2")
+            {
+                AppData.NavigateClass.globalFrame.Navigate(new Page6());
+            }
+        }
     }
 }
