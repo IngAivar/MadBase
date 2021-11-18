@@ -120,6 +120,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Page7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page7_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page7_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page7_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Page1.xaml.cs">
@@ -160,6 +176,18 @@
     </Compile>
     <Compile Include="Page6_1.xaml.cs">
       <DependentUpon>Page6_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page7.xaml.cs">
+      <DependentUpon>Page7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page7_1.xaml.cs">
+      <DependentUpon>Page7_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page7_2.xaml.cs">
+      <DependentUpon>Page7_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page7_3.xaml.cs">
+      <DependentUpon>Page7_3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
